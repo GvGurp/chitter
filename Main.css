@@ -1,0 +1,239 @@
+body {
+    background-color: #131316;
+    text-decoration: white;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.registratieformulier {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: #1DA1F2;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+form input {
+    padding: 0.5em;
+}
+
+form input [type=sumbit] {
+    width: fit-content;
+}
+
+:before,
+:after {
+    box-sizing: border-box;
+}
+
+.homepage {
+    padding: 0;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+}
+
+.avatar {
+    width: 38px;
+    height: 38px;
+    border-radius: 40px;
+    background: #fff;
+}
+
+.sidebar {
+    position: sticky;
+    top: 0;
+    width: 230px;
+    height: 100vh;
+    padding-right: 20px;
+    flex-direction: column;
+    display: flex;
+}
+
+.logo {
+    margin: 10px 20px 20px;
+    border-radius: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 10px 20px;
+    display: inline-block;
+    color: #fff;
+}
+
+a:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.btn {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 15px 0;
+    text-align: center;
+    background: #fff;
+    display: block;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+.account {
+    padding: 10px 0 20px;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
+
+.user-details {
+    flex-grow: 1;
+    color: white;
+}
+
+p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+p:last-child {
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
+
+.menuicon {
+    display: flex;
+    gap: 3px;
+}
+
+span {
+    width: 3px;
+    height: 3px;
+    background: #fff;
+    border-radius: 100%;
+}
+
+.feed {
+    width: 100%;
+    max-width: 520px;
+    border: solid rgba(255, 255, 255, 0.1);
+    border-width: 0 1px;
+    min-height: 0;
+}
+
+.write-a-post {
+    padding: 10px;
+    grid-template-columns: 40px 1fr;
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.tweet-input {
+    padding: 10px;
+    font-size: 1.1rem;
+    outline: 0px;
+    background-color: #131316;
+}
+
+.tweet-input:empty:before {
+    content: attr(data-placeholder);
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.post {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.featured {
+    padding: 20px;
+    width: 340px;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 20%;
+    flex-direction: column;
+    gap: 20px;
+    border: solid white;
+    border-radius: 5%;
+}
+
+input {
+    height: 38px;
+    width: 100%;
+    font-family: inherit;
+    padding: 0 10px 0 45px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 40px;
+    border: 0;
+}
+
+.registratie {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 15px 0;
+    text-align: center;
+    background: #fff;
+    display: block;
+}
+
+.login {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 15px;
+    text-align: center;
+    background: #fff;
+    display: block;
+}
+
+.alreadysigningin {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 15px 0;
+    text-align: center;
+    background: #313131;
+    display: block;
+    cursor: not-allowed;
+}
+
+.homeregistratie {
+    height: 3674px;
+}
+
+.likebutton {
+    display: inline-block;
+    margin: 5px;
+    color: #1DA1F2;
+}
+
+.deleteknop{
+    display: inline-block;
+    margin: 5px;
+    color: #1DA1F2;
+}
